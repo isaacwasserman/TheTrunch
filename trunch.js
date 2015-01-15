@@ -15,7 +15,7 @@ var addTrunch = function(){
   freshmeat.id = "freshmeat";
   document.getElementsByTagName('body')[0].appendChild(freshmeat);
   var freshmeat = document.getElementById("freshmeat");
-  freshmeat.setAttribute("src", "freshmeat.mp3");
+  freshmeat.setAttribute("src", "http://raritea.com/TheTrunch/resources/freshmeat.mp3");
   freshmeat.style.display = "none";
 
   document.getElementById("trunch").style.position = "fixed";
