@@ -8,7 +8,7 @@ var freshmeat = document.createElement("audio");
 freshmeat.id = "freshmeat";
 document.getElementsByTagName('body')[0].appendChild(freshmeat);
 var freshmeat = document.getElementById("freshmeat");
-freshmeat.setAttribute("src", "freshmeat.mp3");
+freshmeat.setAttribute("src", "resources/freshmeat.mp3");
 freshmeat.style.display = "none";
 
 document.getElementById("trunch").style.position = "fixed";
@@ -17,7 +17,7 @@ document.getElementById("trunch").style.bottom = "0px";
 document.getElementById("trunch").style.overflow = "hidden";
 document.getElementById("trunch").style.zIndex = "3";
 
-var trunchinner = '<img src="Trunch-Face.png"/><img id="mouth" src="Trunch-Mouth.png" style="position:relative; left:-454px"/><img id="whip" src="whip.png" style="position:relative; left:-520px; bottom:-130px;"/>';
+var trunchinner = '<img src="resources/Trunch-Face.png"/><img id="mouth" src="resources/Trunch-Mouth.png" style="position:relative; left:-454px"/><img id="whip" src="resources/whip.png" style="position:relative; left:-520px; bottom:-130px;"/>';
 document.getElementById("trunch").innerHTML = trunchinner;
 
 var mouth = document.getElementById("mouth");
